@@ -1,0 +1,19 @@
+{
+  "name": "@yqy7/icalc",
+  "version": "1.0.0",
+  "description": "二进制、十六进制、十进制混合计算的小工具",
+  "bin": {
+    "icalc": "bin/icalc.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yqy7",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "numeral": "^2.0.6"
+  }
+}
